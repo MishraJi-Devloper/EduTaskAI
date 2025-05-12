@@ -1,0 +1,118 @@
+🚀 Project Prompt: "EduTask AI – Your Smart Academic Task Companion"
+Goal:
+Build a smart, AI-powered, user-friendly task management web app that helps students across any field of study (not just computer science) to manage tasks, prioritize deadlines, and get intelligent suggestions on what to do next — based on deadlines, difficulty, time availability, and subject rotation. The app will focus on increasing productivity, reducing stress, and offering a modern user experience with monetization potential.
+
+🧠 App Vision:
+EduTask AI is more than a to-do list — it’s a personal AI academic assistant that learns your habits, tracks your subjects, and tells you what to do next, making you more productive, less overwhelmed, and always on track.
+
+🌟 Key Features:
+✅ Task Management:
+Add tasks with: title, subject, type (assignment, project, exam, study), deadline, time estimate, priority
+
+Smart labels (e.g., "Due Tomorrow", "Long Project", "Quick Task")
+
+🧠 AI-Powered Suggestions:
+Suggests what task to do next using:
+
+Time left today
+
+Urgency (deadline vs today)
+
+Subject rotation logic (no subject left behind!)
+
+Task type balance (study vs assignment)
+
+Learns your task habits over time
+
+AI Chat Assistant: Ask “What should I do in the next 1 hour?” and get a personalized plan
+
+📅 Daily Auto-Planner:
+Generates a daily/weekly plan based on your time slots
+
+Auto-reorganizes if you skip or delay tasks
+
+Shows free time left
+
+📊 Analytics Dashboard:
+Task completion rate
+
+Time spent per subject
+
+Streaks, badges, and productivity score
+
+🌓 UI & UX:
+Light Mode + Dark Mode toggle
+
+Mobile-first responsive design
+
+Clean, card-based dashboard with drag & drop
+
+Animated transitions for adding/editing tasks
+
+💰 Monetization Ideas:
+Freemium Model:
+
+Free version with core features
+
+Pro version with:
+
+AI chat assistant
+
+Auto-generated study plans
+
+Cloud sync across devices
+
+Ads Integration (for free users)
+
+Institution Plans: Schools/Colleges use it for student assignment tracking
+
+Affiliate Content: Recommend books, tools, or courses based on subject
+
+⚙️ Tech Stack:
+Component	Tech
+Frontend	React.js + TailwindCSS
+Backend	Node.js (Express) or Python (FastAPI)
+AI Assistant	OpenAI API or Langchain
+Auth	Firebase Auth / Google OAuth
+Database	Firebase Firestore / MongoDB Atlas
+Hosting	Vercel / Render
+Mobile version	React Native (for future expansion)
+
+📈 Growth Strategy (User-Centric):
+Unique Value Prop: Combines productivity, AI, and education — tailored for students across all disciplines.
+
+Launch Strategy:
+
+Beta test with college students
+
+Create Instagram Reels, LinkedIn posts, YouTube Shorts
+
+Partner with student communities (e.g. Microsoft Learn Ambassadors, GDSC)
+
+Referral System: Invite friends → unlock Pro features
+
+Feedback Loop: In-app polls and feature requests for rapid updates
+
+🔮 Future Expansion:
+Native mobile apps (React Native)
+
+Mental wellness tracker with mood + stress logs
+
+Pomodoro + study timer
+
+Offline access
+
+AI revision quiz generator based on subjects
+
+🧩 Optional AI Prompts for In-App Chat:
+"What’s the most important thing to do today?"
+
+"I have 2 hours free — what should I complete first?"
+
+"Help me plan my study week based on these tasks."
+
+"Remind me if I ignore a subject for too long."
+
+🏁 Outcome:
+A smart, AI-integrated academic productivity platform that students love, schools adopt, and users pay for — built with real-world monetization and usability in mind.
+
