@@ -29,6 +29,20 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       
+      - name: Create index.html in dist root
+        run: |
+          # Check if index.html exists at the root of dist
+          if [ ! -f dist/index.html ]; then
+            # If it doesn't exist, let's see what files are in the dist directory
+            ls -la dist/
+            # Let's check if it might be in a client subdirectory
+            if [ -f dist/client/index.html ]; then
+              # Copy index.html to dist root
+              cp dist/client/index.html dist/
+              echo "Copied index.html from dist/client to dist root"
+            fi
+          fi
+      
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
